@@ -1,3 +1,7 @@
+body {
+  background-image: url("../img/dw2.png");
+}
+
 li {
 	list-style: none;
 }
@@ -17,8 +21,8 @@ li {
 	display: block;
 }
 .lb-album li > a{
-	width: 150px;
-	height: 150px;
+	width: 400px;
+	height: 300px;
 	position: relative;
 	padding: 10px;
 	background: #f1d2c2;
@@ -31,12 +35,12 @@ li {
 }
 .lb-album li > a span{
 	position: absolute;
-	width: 150px;
-	height: 150px;
+	width: 400px;
+	height: 300px;
 	top: 10px;
 	left: 10px;
 	text-align: center;
-	line-height: 150px;
+	line-height: 300px;
 	color: rgba(27,54,81,0.8);
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
 	font-size: 24px;
