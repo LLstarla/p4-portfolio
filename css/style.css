@@ -9,22 +9,20 @@ li {
 p {
   margin: 0 auto 2rem;
   text-align: center;
-  font-family: 'oswald';
-  font-size: 1.25rem;
-  color: #444;
+  font-family: 'Questrial', sans-serif;
+  font-size: 2.25rem;
+  color: rgba(96, 17, 71, 0.75);
   font-weight: 100;
   width: 90%;
 }
 
 h1 {
 	text-align: center;
-  font-family: 'Oswald';
+  font-family: 'Questrial', sans-serif;
   font-weight: 100;
-  font-size: 3.75rem;
+  font-size: 4.5rem;
   letter-spacing: 5px;
-  background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgba(96, 17, 71, 0.75);
   margin-bottom: 0;
 }
 
@@ -38,23 +36,24 @@ h1 {
 .lb-album{
 	width: 900px;
 	margin: 0 auto;
-	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Questrial', sans-serif;
 }
 .lb-album li{
 	float: left;
-	margin: 5px;
+	margin: 30px;
 	position: relative;
 }
 .lb-album li > a,
 .lb-album li > a img{
 	display: block;
+	max-width: 100%;
 }
 .lb-album li > a{
-	width: 400px;
-	height: 300px;
+	width: 200px;
+	height: 150px;
 	position: relative;
 	padding: 10px;
-	background: #f1d2c2;
+	background: rgba(96, 17, 71, 0.25);
 	-webkit-box-shadow: 1px 1px 2px #000, 1px 1px 2px rgba(0, 0, 0, 0.5) inset;
 	-moz-box-shadow: 1px 1px 2px #000, 1px 1px 2px rgba(0, 0, 0, 0.5) inset;
 	box-shadow: 1px 1px 2px #000, 1px 1px 2px rgba(0, 0, 0, 0.5) inset;
@@ -72,7 +71,7 @@ h1 {
 	line-height: 300px;
 	color: rgba(27,54,81,0.8);
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
-	font-size: 24px;
+	font-size: 60px;
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
@@ -145,7 +144,7 @@ h1 {
 .lb-overlay div h3 span,
 .lb-overlay div p{
 	font-size: 16px;
-	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-family: 'Questrial', sans-serif;
 	font-style: italic;
 }
 .lb-overlay div h3 span{
