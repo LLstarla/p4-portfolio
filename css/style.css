@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/dw2.png");
+  background-image: url("../img/dw2.png");
 }
 
 li {
@@ -11,28 +11,59 @@ p {
   text-align: center;
   font-family: 'Questrial', sans-serif;
   font-size: 2.25rem;
-  color: rgba(96, 17, 71, 0.75);
-  font-weight: 100;
+  color: rgb(96, 17, 71);
+  font-weight: 200;
   width: 90%;
 }
 
 h1 {
 	text-align: center;
   font-family: 'Questrial', sans-serif;
-  font-weight: 100;
+  font-weight: 600;
   font-size: 4.5rem;
   letter-spacing: 5px;
-  color: rgba(96, 17, 71, 0.75);
+  color: rgb(96, 17, 71);
   margin-bottom: 0;
 }
 
-/*.effect-layla h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
-	margin: 0;
-	letter-spacing: 1px;
-	font-size: 68.5%;
-}*/
+footer {
+	margin: 50px;
+}
+
+footer p {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.2rem;
+  color: #015E6F;
+  font-weight: 300;
+  width: 100%;
+
+}
+
+footer p a, 
+footer p a:active,
+footer p a:visited  {
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.2rem;
+  color: #015E6F;
+  font-weight: 200;
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer p a:hover{
+	  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.2rem;
+  color: #0F9E92;
+  font-weight: 200;
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 
 .effect-layla figcaption {
 	padding: 3em;
