@@ -1,3 +1,5 @@
+/*****   General Styling   *****/
+
 body {
   background-image: url("../img/dw2.png");
 }
@@ -5,6 +7,9 @@ body {
 li {
 	list-style: none;
 }
+
+
+/*****   Word Styling   *****/
 
 p {
   margin: 0 auto 2rem;
@@ -65,6 +70,8 @@ footer p a:hover{
 }
 
 
+/*****   Effects Styling   *****/
+
 .effect-layla figcaption {
 	padding: 3em;
 	cursor: auto;
@@ -84,8 +91,7 @@ footer p a:hover{
 	position: absolute;
 	content: '';
 	opacity: 0;
-	cursor: auto;
-	
+	cursor: auto;	
 }
 
 .effect-layla figcaption::before {
@@ -115,7 +121,7 @@ footer p a:hover{
 }
 
 .effect-layla h2 {
-	padding-top: 2%;
+	padding: 2%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
@@ -126,9 +132,9 @@ footer p a:hover{
 	opacity: 0;
 	-webkit-transform: translate3d(0,-10px,0);
 	transform: translate3d(0,-10px,0);
-}*/
+}
 
-/.effect-layla img,
+.effect-layla img,
 .effect-layla h2 {
 	-webkit-transform: translate3d(0,0px,0);
 	transform: translate3d(0,0px,0);
@@ -142,8 +148,8 @@ footer p a:hover{
 	transition: opacity 0.35s, transform 0.35s;
 }
 
-.effect-layla:hover img {
-	opacity: 1;
+.effect-layla:hover a > img {
+	opacity: .5;
 }
 
 .effect-layla:hover figcaption::before,
@@ -166,24 +172,13 @@ footer p a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
+/*****  Gallery Layout Formatting  *****/
 
 .container {
   width: 90%;
   margin: 25px auto;
   max-width: 1100px;
 }
-
-
-/*****  Gallery Layout Formatting  *****/
 
 .lb-album{
 	max-width: 1000px;
@@ -256,22 +251,6 @@ footer p a:hover{
 	max-width: 100%;
 }
 
-/*.lb-overlay > div {
-	position: relative;
-	color: rgba(27,54,81,0.8);
-	opacity: 0;
-	filter: alpha(opacity=0); /* internet explorer */
-    /*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-	/*width: 225px;
-	margin: 10px auto 0px auto;
-	text-shadow: 0px 1px 1px rgba(0,0,0,0.6);
-	-webkit-transition: opacity 0.3s linear 1.3s;
-	-moz-transition: opacity 0.3s linear 1.3s;
-	-o-transition: opacity 0.3s linear 1.3s;
-	-ms-transition: opacity 0.3s linear 1.3s;
-	transition: opacity 0.3s linear 1.3s;
-}*/
-
 
 /*****  Lightbox Close  *****/
 
@@ -285,6 +264,7 @@ footer p a:hover{
 	font-family: 'Questrial', sans-serif;
 	color: #ffffff;
 }
+
 
 /*****  Lightbox Open  *****/
 
@@ -306,13 +286,6 @@ footer p a:hover{
 	-ms-transition: opacity 0.3s linear 1.2s;
 	transition: opacity 0.3s linear 1.2s;
 }
-/*.lb-overlay img{
-	max-height: 100%;
-	position: relative;
-	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
-}*/
 
 .lb-overlay:target {
 	width: auto;
@@ -331,8 +304,8 @@ footer p a:hover{
 	-o-animation: fadeInScale 1.2s ease-in-out;
 	-ms-animation: fadeInScale 1.2s ease-in-out;
 	animation: fadeInScale 1.2s ease-in-out;
-
 }
+
 .lb-overlay:target a.lb-close,
 .lb-overlay:target > div{
 	opacity: 1;
@@ -345,18 +318,22 @@ footer p a:hover{
   0% { -webkit-transform: scale(0.6); opacity: 0; }
   100% { -webkit-transform: scale(1); opacity: 1; }
 }
+
 @-moz-keyframes fadeInScale {
   0% { -moz-transform: scale(0.6); opacity: 0; }
   100% { -moz-transform: scale(1); opacity: 1; }
 }
+
 @-o-keyframes fadeInScale {
   0% { -o-transform: scale(0.6); opacity: 0; }
   100% { -o-transform: scale(1); opacity: 1; }
 }
+
 @-ms-keyframes fadeInScale {
   0% { -ms-transform: scale(0.6); opacity: 0; }
   100% { -ms-transform: scale(1); opacity: 1; }
 }
+
 @keyframes fadeInScale {
   0% { transform: scale(0.6); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
